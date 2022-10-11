@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100vh;
+    background-image: url("./vercedes\ img..jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.menu {
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-logo {
+    height: 100%;
+    margin-right: 20px;
+}
+
+.menu-links {
+     width: 100%;
+     max-width: 600px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    font-family: "Lato";
+    color: #000;
+}
